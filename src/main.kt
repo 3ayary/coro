@@ -6,20 +6,9 @@ fun main() = runBlocking { // this: CoroutineScope
     }
     println("Hello") // main coroutine continues while a previous one is delayed
 }
+
 // coroutines tutorial
 
     //main for ui
     // io dispatcher for data
     // default for complex calculations
-
-
-
-
-
-fun task1(){
-
-    print("hello")
-}
-fun  task2(){
-    print("world")
-}
